@@ -9,8 +9,8 @@ function App() {
 
   return (
     <div className="App">
-      <header>
-        <h1>Ad's Todo List</h1>
+      <header style={{ textAlign: "center", padding: "30px", color: "green" }}>
+        <h1>Ad's Todo List :</h1>
       </header>
     </div>
   );
