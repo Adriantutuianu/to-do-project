@@ -9,7 +9,9 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Hello react</h1>
+      <header>
+        <h1>Ad's Todo List</h1>
+      </header>
     </div>
   );
 }
