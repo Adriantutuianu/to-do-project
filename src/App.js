@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <header>
         {" "}
-        <h1>Ad's Todo List :</h1>
+        <h1>Adrian Todo List :</h1>
       </header>
     </div>
   );
