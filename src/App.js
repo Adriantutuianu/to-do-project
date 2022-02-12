@@ -11,7 +11,7 @@ function App() {
         {" "}
         <h1>Adrian Todo List :</h1>
       </header>
-      <Form />
+      <Form setInputText={setInputText} />
       <TodoList />
     </div>
   );
