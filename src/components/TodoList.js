@@ -5,7 +5,12 @@ const TodoList = ({ todos }) => {
   console.log(todos);
   return (
     <div className="todo-container">
-      <ul className="todo-list"></ul>
+      <ul className="todo-list">
+        {/* For each object we can render out a Todo component :  */}
+        {todos.map((todo) => (
+          <Todo />
+        ))}
+      </ul>
     </div>
   );
 };
