@@ -8,7 +8,7 @@ const TodoList = ({ todos }) => {
       <ul className="todo-list">
         {/* For each object we can render out a Todo component :  */}
         {todos.map((todo) => (
-          <Todo />
+          <Todo text={todo.text} />
         ))}
       </ul>
     </div>
