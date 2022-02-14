@@ -12,8 +12,8 @@ function App() {
 
   //useEffect
   useEffect(() => {
-    console.log("hey");
-  }, [todos]);
+    filterHandler();
+  }, [todos, status]);
 
   //functions and events
   const filterHandler = () => {
