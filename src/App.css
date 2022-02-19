@@ -15,6 +15,16 @@ header {
   color: rgb(65, 63, 63);
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  font-weight: 700;
+  border-top: 1px solid black;
+  color: rgb(65, 63, 63);
+}
+
 header,
 form {
   min-height: 20vh;
