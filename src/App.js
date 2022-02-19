@@ -70,6 +70,7 @@ function App() {
         setTodos={setTodos}
         todos={todos}
       />
+      <footer>@{new Date().getFullYear()} - All rights reserved.</footer>
     </div>
   );
 }
