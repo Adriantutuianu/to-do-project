@@ -14,6 +14,14 @@ header {
   font-size: 2rem;
   border-bottom: 1px solid black;
   color: rgb(65, 63, 63);
+  min-height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-btn {
+  margin-left: 5px;
 }
 
 footer {
@@ -25,7 +33,7 @@ footer {
   border-top: 1px solid black;
   color: rgb(65, 63, 63);
 }
-header,
+
 form {
   min-height: 15vh;
   display: flex;
@@ -82,7 +90,7 @@ form button:hover {
 .todo li {
   flex: 1;
 }
-
+.new-btn,
 .trash-btn,
 .complete-btn {
   background: #ff6f47;
