@@ -9,6 +9,7 @@ body {
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
 }
+
 header {
   font-size: 2rem;
   border-bottom: 1px solid black;
@@ -20,14 +21,13 @@ footer {
   justify-content: center;
   align-items: center;
   height: 60px;
-  font-weight: 700;
+  font-weight: 500;
   border-top: 1px solid black;
   color: rgb(65, 63, 63);
 }
-
 header,
 form {
-  min-height: 20vh;
+  min-height: 15vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,6 +49,12 @@ form button:hover {
   background: #ff6f47;
   color: white;
 }
+
+.content {
+  min-height: 80vh;
+  height: 100%;
+}
+
 .todo-container {
   display: flex;
   justify-content: center;

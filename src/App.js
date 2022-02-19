@@ -58,19 +58,23 @@ function App() {
         {" "}
         <h1>Adrian Todo List :</h1>
       </header>
-      <Form
-        inputText={inputText}
-        todos={todos}
-        setTodos={setTodos}
-        setInputText={setInputText}
-        setStatus={setStatus}
-      />
-      <TodoList
-        filteredTodos={filteredTodos}
-        setTodos={setTodos}
-        todos={todos}
-      />
-      <footer>@{new Date().getFullYear()} - All rights reserved.</footer>
+      <div className="content">
+        <Form
+          inputText={inputText}
+          todos={todos}
+          setTodos={setTodos}
+          setInputText={setInputText}
+          setStatus={setStatus}
+        />
+        <TodoList
+          filteredTodos={filteredTodos}
+          setTodos={setTodos}
+          todos={todos}
+        />
+      </div>
+      <footer>
+        @{new Date().getFullYear()} - All rights reserved @Adrian Tut.
+      </footer>
     </div>
   );
 }
